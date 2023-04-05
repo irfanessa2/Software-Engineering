@@ -1,14 +1,21 @@
+import logo from './CrabLogo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Blue bar at the top
+        <div className="logo-container">
+          <img src={logo} alt="Logo" className="logo" />
+        </div>
+        <div className="blue-bar"></div>
       </header>
-      <div className="App-footer">
-        Blue bar at the bottom
+      <div className="App-content">
+        {/* Your app content goes here */}
       </div>
+      <footer className="App-footer">
+        <div className="blue-bar"></div>
+      </footer>
     </div>
   );
 }

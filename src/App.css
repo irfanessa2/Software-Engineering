@@ -7,10 +7,25 @@
 .App-header {
   background-color: #435E7C;
   height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  margin-left: 20px;
+}
+
+.logo {
+  height: 80px;
 }
 
 .App-footer {
   background-color: #435E7C;
   height: 50px;
   margin-top: auto;
+}
+
+.blue-bar {
+  height: 20px;
+  background-color: #435E7C;
 }
