@@ -5,10 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="logo-container">
-          <img src={logo} alt="Logo" className="logo" />
-        </div>
-        <div className="blue-bar"></div>
+        <img src={logo} alt="Logo" className="logo" />
+        <h1 className="company-name">Express Firm Ltd.</h1>
       </header>
       <div className="App-content">
         {/* Your app content goes here */}

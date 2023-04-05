@@ -9,14 +9,20 @@
   height: 100px;
   display: flex;
   align-items: center;
-}
-
-.logo-container {
-  margin-left: 20px;
+  padding: 0 9px;
 }
 
 .logo {
-  height: 80px;
+  height: 85px;
+  margin-left: 1px;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .App-footer {
