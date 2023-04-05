@@ -1,4 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .App-header {
   background-color: #435E7C;
   height: 100px;
+}
+
+.App-footer {
+  background-color: #435E7C;
+  height: 50px;
+  margin-top: auto;
 }

@@ -4,9 +4,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Blue bar goes here
-        testing push
+        Blue bar at the top
       </header>
+      <div className="App-footer">
+        Blue bar at the bottom
+      </div>
     </div>
   );
 }
